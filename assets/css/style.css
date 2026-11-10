@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --brand:hwb(114 11% 49%);
+  --brand-dark: hwb(131 17% 30%);
+  --ink: hsl(207, 79%, 50%);
+  --muted-bg: #fff8f5;
+}
+
+*{box-sizing: border-box;}
+body { font-family: "DM Sans", sans-serif; color: var(--ink); }
+.brand { color: var(--ink); font-size: 1.45rem; }
+.brand i, .brand span { color: var(--brand); }
+.text-brand { color: var(--brand) !important; }
+.btn-brand { background: var(--brand); color: #fff; border: 1px solid var(--brand); font-weight: 600; }
+.btn-brand:hover, .btn-brand:focus { background: var(--brand-dark); border-color: var(--brand-dark); color: #fff; }
+.brand-icon {color: var(--brand-dark);}
+.navbar .nav-link {font-weight: 600; color:wight; margin: 0 .35rem;}
+.navbar .nav-link:hover, .navbar .nav-link.active{color:var(--brand) ;}
+footer{background-color:hwb(114 11% 49%); border-top: 1px solid #f1f1f1;}
+footer a{color: var(--brand);}
